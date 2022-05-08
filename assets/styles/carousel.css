@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
 }
 .container {
-  padding: 0;
+  padding-top: 120px;
 }
 
 .content-slide {
@@ -45,6 +45,11 @@ img {
 .next {
   right: 0;
   margin-right: 44px;
+}
+
+.button-container button a {
+  color: white;
+  text-decoration: none;
 }
 
 .prev:hover,
