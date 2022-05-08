@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santa Sea</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="navbar">
+      <nav>
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="" />
+        </div>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://traveloka.com">Ticket</a></li>
+          <li><a href="#promo">Promo</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#adventure">Adventure</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container">
+      <div class="content-slide">
+        <div class="img-slide fade]">
+          <img src="assets/images/banner.png" alt="" />
+        </div>
+        <div class="img-slide fade">
+          <img src="assets/images/ban.png" alt="" />
+        </div>
+        <div class="img-slide fade">
+          <img src="assets/images/banner.png" alt="" />
+        </div>
+        <a class="prev" onclick="nextslide(-1)">&#10094;</a>
+        <a class="next" onclick="nextslide(1)">&#10095;</a>
+      </div>
+      <div class="page">
+        <span class="dot" onclick="dotslide(1)"></span>
+        <span class="dot" onclick="dotslide(2)"></span>
+        <span class="dot" onclick="dotslide(3)"></span>
+      </div>
+      <div class="button-container">
+        <div class="text">Beli Tiket Sekarang</div>
+        <button><a href="traveloka.com"> Tiket</a></button>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Contents Start -->
+    <div class="container-content">
+      <div class="promo-special" id="promo">
+        <h5>Promo Special</h5>
+        <div class="content-promo">
+          <div class="text-promo img-promo1">Promo Liburan Lebaran</div>
+          <div class="text-promo img-promo2">Promo Silaturahmi Kapten Bard</div>
+          <div class="text-promo img-promo3">Tiket Hemat THR</div>
+        </div>
+      </div>
+      <div class="adventure" id="adventure">
+        <h5>Adventure</h5>
+        <div class="content-adventure">
+          <div class="role-adventure">
+            <div class="text-adventure img-adventure1">Racing Slide</div>
+            <p>
+              Racing Slide menjadi salah satu wahana yang menjadi favorite bagi
+              para wisatawan yang datang. Memiliki tinggi setinggi 15 meter,
+              wahana ini siap untuk menguji adrenalin pengunjung.
+            </p>
+          </div>
+          <div class="role-adventure">
+            <div class="text-adventure img-adventure2">Caribbean Ocean</div>
+            <p>
+              Wahana ini membuat para pengunjung merasakan seperti berada di
+              lautan asli karena sensasi ombak yang membuat pengunjung
+              terombang-ambing.
+            </p>
+          </div>
+          <div class="role-adventure">
+            <div class="text-adventure img-adventure3">Japanese Hotspring</div>
+            <p>
+              Disebut sebagai Japanese Hot Spring dikarenakan tempatnya yang
+              menerapkan konsep pemandian air panas yang biasa terdapat di
+              negara Jepang. Selain itu juga air panas ini menggunakan air yang
+              alami.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="facilities" id="facilities">
+        <h5>Facilities</h5>
+        <div class="content-facilities">
+          <ul>
+            <li><img src="assets/images/logo1-1.svg" alt="" />Rest Room</li>
+            <li><img src="assets/images/logo2-1.svg" alt="" />Toilet</li>
+            <li><img src="assets/images/logo3-1.svg" alt="" />Locker</li>
+          </ul>
+          <ul>
+            <li><img src="assets/images/logo1-2.svg" alt="" />Mushola</li>
+            <li>
+              <img src="assets/images/logo2-2.svg" alt="" />Information Center
+            </li>
+            <li><img src="assets/images/logo3-2.svg" alt="" />Stage Area</li>
+          </ul>
+          <ul>
+            <li><img src="assets/images/logo1-3.svg" alt="" />Group Hall</li>
+            <li><img src="assets/images/logo2-3.svg" alt="" />Gazeboo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="denah" id="denah">
+        <div class="title">
+          <div class="kotak"></div>
+          <h5>Denah</h5>
+          <div class="kotak"></div>
+        </div>
+        <div class="content-denah">
+          <img src="assets/images/denah.png" alt="" />
+          <p>
+            Peta ala bajak laut yang berguna untuk menunjukkan wahana-wahana apa
+            saja yang ada di Santa Sea.
+          </p>
+        </div>
+      </div>
+      <div class="galery" id="gallery">
+        <div class="title">
+          <div class="kotak"></div>
+          <h5>Galery</h5>
+          <div class="kotak"></div>
+        </div>
+        <div class="content-gallery">
+          <div class="gallery-main">
+            <img src="assets/images/gallery-1.png" alt="" />
+          </div>
+          <div class="gallery-sub">
+            <div class="gallery-sub1">
+              <img src="assets/images/gallery-2.png" alt="" />
+              <img src="assets/images/gallery-3.png" alt="" />
+            </div>
+            <div class="gallery-sub2">
+              <img src="assets/images/gallery-4.png" alt="" />
+              <img src="assets/images/gallery-5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="location" id="contact">
+        <div class="title">
+          <div class="kotak"></div>
+          <h5>Location</h5>
+          <div class="kotak"></div>
+        </div>
+        <div class="content-location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.512036143458!2d106.92449781431735!3d-6.948765269957116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e684808d41299f7%3A0xfe3a68ec626b9769!2sSantaSea%20Waterpark%20Sukabumi!5e0!3m2!1sen!2sid!4v1651976679379!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="maps"
+            class="maps"
+          ></iframe>
+          <div class="contact-location">
+            <img src="assets/images/logo.png" alt="" class="logo" />
+            <p>
+              Jl. Lio Santa, Gedongpanjang, Kec. Citamiang, Kota Sukabumi, Jawa
+              Barat 43144
+            </p>
+            <ul>
+              <li>
+                <img src="assets/images/contact-1.svg" alt="" />081646904941
+              </li>
+              <li>
+                <img
+                  src="assets/images/contact-2.svg"
+                  alt=""
+                />santaseawaterpark
+              </li>
+              <li>
+                <img src="assets/images/contact-3.svg" alt="" />SantaSea
+                Waterpark
+              </li>
+              <li>
+                <img src="assets/images/contact-4.svg" alt="" />SantaSea
+                Waterpark
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contents End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <img src="assets/images/logo.png" alt="" />
+      <div class="content-footer">
+        <ul>
+          <li style="font-weight: bold">Rekreasi</li>
+          <li><a href="#">Beli Tiket</a></li>
+          <li><a href="#">Promo</a></li>
+        </ul>
+        <ul>
+          <li style="font-weight: bold">Properti</li>
+          <li><a href="#">Jelajah Properti</a></li>
+          <li><a href="#">Pengembangan</a></li>
+        </ul>
+        <ul>
+          <li style="font-weight: bold">Korporat</li>
+          <li><a href="#">Karir</a></li>
+          <li><a href="#">Berita</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

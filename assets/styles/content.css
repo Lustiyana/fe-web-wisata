@@ -1,0 +1,359 @@
+h5 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #0284a8;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+/* Promo Special Start */
+.content-promo,
+.content-adventure {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 100px 0 100px;
+}
+.img-promo1 {
+  background-image: url("/assets/images/promo-1.png");
+}
+.img-promo2 {
+  background-image: url("/assets/images/promo-2.png");
+}
+.img-promo3 {
+  background-image: url("/assets/images/promo-3.png");
+}
+.text-promo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 243px;
+  font-size: 29px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-left: 42px;
+  padding-right: 42px;
+  width: 340px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.text-promo:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+/* Promo Special End */
+
+/* Adventure Start */
+.img-adventure1 {
+  background-image: url("/assets/images/adventure-1.png");
+}
+.img-adventure2 {
+  background-image: url("/assets/images/adventure-2.png");
+}
+.img-adventure3 {
+  background-image: url("/assets/images/adventure-3.png");
+}
+.text-adventure {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 472px;
+  font-size: 29px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-left: 42px;
+  padding-right: 42px;
+  width: 340px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.text-adventure:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+p {
+  margin-top: 41px;
+  max-width: 340px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+/* Adventure End */
+
+/* Facilities Start */
+.content-facilities {
+  display: flex;
+  width: auto;
+  height: 300px;
+  background-color: #0284a8;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-facilities ul {
+  list-style: none;
+}
+
+.content-facilities ul:nth-child(3) {
+  margin-top: -55px;
+}
+
+.content-facilities ul li {
+  margin: 24px auto;
+}
+
+.content-facilities img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+/* Facilities End */
+
+/* Denah Start */
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.kotak {
+  height: 41px;
+  width: 555px;
+  background-color: #0284a8;
+  margin-top: 70px;
+}
+.title h5 {
+  padding: 0;
+}
+.denah .content-denah {
+  text-align: center;
+}
+.denah .content-denah p {
+  text-align: center;
+  max-width: 777px;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 24px;
+  margin: 0 auto;
+}
+.denah .content-denah img {
+  width: 777px;
+  height: 544px;
+}
+/* Denah End */
+
+/* Gallery Start */
+.gallery-main img {
+  width: 527px;
+  height: 527px;
+  margin-right: 32px;
+}
+.gallery-sub img {
+  width: 253px;
+  margin: auto 8px;
+}
+.gallery-sub1 img,
+.gallery-sub2 img {
+  margin-bottom: 16px;
+}
+.content-gallery {
+  display: flex;
+  justify-content: center;
+}
+.content-gallery img {
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.content-gallery img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+/* Gallery End */
+
+/* Location Start */
+.maps {
+  width: 796px;
+  height: 476px;
+}
+.content-location {
+  display: flex;
+  justify-content: center;
+}
+.contact-location {
+  margin-left: 42px;
+  margin-top: 72px;
+}
+.contact-location ul {
+  list-style: none;
+  margin-top: 38px;
+  font-size: 12px;
+}
+.contact-location p {
+  font-size: 14px;
+  width: 283px;
+}
+.contact-location img {
+  width: 60%;
+  height: auto;
+}
+.contact-location ul img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+/* Location End */
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: 24px;
+  }
+
+  .text-adventure,
+  .text-promo {
+    width: 170px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  .text-adventure {
+    height: 372px;
+  }
+  p {
+    max-width: 170px;
+    font-size: 10px;
+    margin-left: 8px;
+    margin-top: 20px;
+  }
+  .kotak {
+    height: 32px;
+    width: 450px;
+    margin-top: 35px;
+    margin-bottom: 32px;
+  }
+  h5 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .content-gallery {
+    display: block;
+  }
+  .gallery-main {
+    margin-left: 32px;
+    text-align: center;
+  }
+  .gallery-sub {
+    margin-top: 16px;
+    text-align: center;
+  }
+  .maps {
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .contact-location {
+    display: flex;
+    justify-content: center;
+  }
+  .content-location {
+    display: inline;
+  }
+  .contact-location p {
+    font-size: 12px;
+    width: 283px;
+    margin-right: 16px;
+  }
+  .contact-location ul {
+    margin-top: 16px;
+    font-size: 10px;
+  }
+  .contact-location ul img {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+  }
+  .contact-location img {
+    width: 100px;
+    height: 75px;
+    margin-right: 16px;
+  }
+  .denah .content-denah p {
+    font-size: 14px;
+  }
+  .denah .content-denah img {
+    width: 75%;
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .content-promo,
+  .content-adventure {
+    display: inline-block;
+    text-align: center;
+  }
+  .text-promo,
+  .text-adventure {
+    width: 100%;
+    height: auto;
+    font-size: 29px;
+    margin: 16px auto;
+  }
+  .text-adventure {
+    height: 272px;
+  }
+  p {
+    max-width: 100%;
+    font-size: 20px;
+  }
+  .content-facilities {
+    display: inline-block;
+    height: 466px;
+    text-align: center;
+    width: 100%;
+    max-width: 576px;
+  }
+  .content-facilities ul:nth-child(3) {
+    margin-top: 0px;
+  }
+  .kotak {
+    display: none;
+  }
+  .title {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .title h5 {
+    display: inline;
+    margin: 0 auto;
+  }
+  .gallery-main img {
+    width: 253px;
+    height: 253px;
+  }
+  .contact-location p {
+    font-size: 10px;
+    width: 183px;
+    margin-right: 8px;
+  }
+  .contact-location ul {
+    font-size: 8px;
+  }
+  .contact-location {
+    margin: 0 auto;
+  }
+  .contact-location .logo {
+    display: none;
+  }
+}
